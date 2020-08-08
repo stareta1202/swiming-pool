@@ -1,5 +1,6 @@
 #include <unistd.h>
 
+<<<<<<< HEAD
 void    ft_putchar(char c)
 {
   write(1, &c, 1);
@@ -23,4 +24,20 @@ void    ft_putnbr(int nb)
         {
                 ft_putchar(i + 48);
         }
+=======
+void ft_putchar(char c)
+{
+    write(1, &c, 1);
+}
+
+void ft_putnbr(int nb)
+{
+    if (nb > 0)
+        ft_putchar
+}
+
+void ft_ascint(int n)
+{
+    
+>>>>>>> ad0d1493fd327b53352a296c9765023f480e86a4
 }

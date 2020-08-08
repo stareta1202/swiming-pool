@@ -1,38 +1,30 @@
-<<<<<<< HEAD
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-=======
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yongjlee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/08/02 15:25:25 by yongjlee          #+#    #+#             */
-/*   Updated: 2020/08/02 15:33:00 by yongjlee         ###   ########.fr       */
+/*   Created: 2020/08/02 16:04:48 by yongjlee          #+#    #+#             */
+/*   Updated: 2020/08/02 16:07:28 by yongjlee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
->>>>>>> ad0d1493fd327b53352a296c9765023f480e86a4
 
-void	ft_print_alphabet(void)
+void	ft_is_negative(int n)
 {
-	char word;
+	char neg;
+	char pos;
 
-	word = 'a';
-	while (word <= 'z')
+	neg = 'N';
+	pos = 'P';
+	if (n > 0)
 	{
-<<<<<<< HEAD
-		ft_putchar(word);
-=======
-		write(1, &word, 1);
->>>>>>> ad0d1493fd327b53352a296c9765023f480e86a4
-		word++;
+		write(1, &pos, 1);
+	}
+	else
+	{
+		write(1, &neg, 1);
 	}
 }

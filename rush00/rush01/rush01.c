@@ -1,6 +1,4 @@
 
-#include <unistd.h>
-
 #include<unistd.h>
     
 //  간단히 한글자 입력하는 함수
